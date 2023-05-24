@@ -1,0 +1,54 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #219a6f, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+}
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+  width: 150px;
+}
+.text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: white;
+}
+.search {
+  border-radius: 8px;
+  outline-style: none;
+}
+.letters-count {
+  border-radius: 8px;
+  height: 40px;
+  width: 140px;
+  color: #1d976c;
+  background-color: white;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  width: 120px;
+  padding: 8px;
+}
+.calculator-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 350px;
+  width: 400px;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
